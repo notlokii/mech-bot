@@ -8,12 +8,12 @@ class Params:
     retreat_hp: float = 0.42
     reengage_hp: float = 0.80
     finish_target_hp: float = 0.25
-    loot_min_hp: float = 0.45
+    loot_min_hp: float = 0.30
     npc_min_hp: float = 0.75
 
     # Fight spacing and evasion, in meters and seconds.
-    preferred_range: float = 85.0
-    range_band: float = 35.0
+    preferred_range: float = 130.0
+    range_band: float = 45.0
     radial_gain: float = 0.65
     close_range: float = 28.0
     strafe_min_s: float = 0.45
@@ -41,9 +41,9 @@ class Params:
     zone_late_radius: float = 80.0
 
     # Looting and objectives.
-    loot_radius: float = 70.0
-    crate_radius: float = 42.0
-    npc_radius: float = 42.0
+    loot_radius: float = 120.0
+    crate_radius: float = 80.0
+    npc_radius: float = 70.0
     threat_clear_radius: float = 95.0
     drop_max_travel: float = 210.0
     drop_lead_s: float = 3.0
